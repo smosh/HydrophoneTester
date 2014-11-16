@@ -29,6 +29,7 @@
 void ADC_Init();
 void Hydrophone_Init();
 int *CollectHydrophoneData(int *buf, int size);
+void Timer0_Init();
 
 
 #endif /* HYDROPHONE_H_ */
